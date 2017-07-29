@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26724.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3Net.IntegrationServices", "P3Net.IntegrationServices\P3Net.IntegrationServices.csproj", "{62A25F33-08D7-43C7-BBE5-6C7634732A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3Net.IntegrationServices.UI", "P3Net.IntegrationServices.UI\P3Net.IntegrationServices.UI.csproj", "{4620E628-D7C7-4BD2-97E5-B2CE0E5F2447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3Net.IntegrationServices.Tasks.GenerateSsrs", "P3Net.IntegrationServices.Tasks.GenerateSsrs\P3Net.IntegrationServices.Tasks.GenerateSsrs.csproj", "{6B3B43F2-5C33-443E-866C-65AA03B6BD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3Net.IntegrationServices.Tasks.GenerateSsrs.UI", "P3Net.IntegrationServices.Tasks.GenerateSsrs.UI\P3Net.IntegrationServices.Tasks.GenerateSsrs.UI.csproj", "{F98DB561-A648-4D3F-8B17-C6F1D4CD3348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{463E9EC7-F73C-48C3-B8A5-B26F1060E938}"
+	ProjectSection(SolutionItems) = preProject
+		Shared\AssemblyVersion.cs = Shared\AssemblyVersion.cs
+		Creating New Tasks.md = Creating New Tasks.md
+		Shared\Install.ps1 = Shared\Install.ps1
+		Shared\P3NetKey.snk = Shared\P3NetKey.snk
+		Shared\RegisterAssembly.ps1 = Shared\RegisterAssembly.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62A25F33-08D7-43C7-BBE5-6C7634732A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A25F33-08D7-43C7-BBE5-6C7634732A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A25F33-08D7-43C7-BBE5-6C7634732A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A25F33-08D7-43C7-BBE5-6C7634732A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4620E628-D7C7-4BD2-97E5-B2CE0E5F2447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4620E628-D7C7-4BD2-97E5-B2CE0E5F2447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4620E628-D7C7-4BD2-97E5-B2CE0E5F2447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4620E628-D7C7-4BD2-97E5-B2CE0E5F2447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3B43F2-5C33-443E-866C-65AA03B6BD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3B43F2-5C33-443E-866C-65AA03B6BD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3B43F2-5C33-443E-866C-65AA03B6BD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3B43F2-5C33-443E-866C-65AA03B6BD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98DB561-A648-4D3F-8B17-C6F1D4CD3348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98DB561-A648-4D3F-8B17-C6F1D4CD3348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98DB561-A648-4D3F-8B17-C6F1D4CD3348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98DB561-A648-4D3F-8B17-C6F1D4CD3348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62DC289A-878B-4AFD-801D-5C51D7350FD2}
+	EndGlobalSection
+EndGlobal
