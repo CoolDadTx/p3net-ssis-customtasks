@@ -2,7 +2,7 @@
 
 ## Version 1.0.0
 
-[Creating an SSIS Custom Task, Part 1](http://www.michaeltaylorp3.net/creating-an-ssis-custom-task-part-1/)
+[Creating an SSIS Custom Task, Part 1](https://blogs.msmvps.com/p3net/2016/01/18/creating-an-ssis-custom-task/)
 
 [Creating an SSIS Custom Task, Part 2](http://www.michaeltaylorp3.net/creating-an-ssis-custom-task-part-2/)
 
